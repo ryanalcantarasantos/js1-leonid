@@ -1,19 +1,21 @@
 *{
     padding: 0px;
     margin: 0px;
-    box-sizing: 0px;
+    box-sizing:0px;
 
 
 }
 :root{
-    --color-bg: green;
+    --color-bg: red;
 }
+
+
 body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
     background-color: var(--color-bg);
 }
